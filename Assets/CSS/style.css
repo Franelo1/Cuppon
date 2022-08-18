@@ -1,0 +1,75 @@
+/* .root { */
+/* --> #212529; */
+/* #707070; */
+/* --light: #F8F9FA;  o var(--light); */
+/* --white: #fff; o var(--white); */
+/* --success: #28a745  o var(--success); } */
+
+
+body header footer {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar-color-new {
+    background-color: #28a745;
+}
+
+.navbar-nav {
+    display:flex;
+    transition:all 0.3s ease;
+}
+
+.nav-item {
+    display:flex;
+    transition:all 0.3s ease;
+}
+.nav-item :hover {
+    padding: 5px 10px;
+    background: #fff;
+    color: #000;
+    border-radius: 15px;
+}
+.preciofull {
+   
+    font-size: 16pt;
+    font-weight: 300;
+}
+
+.preciooferta {
+    color: #28a745;
+    
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+
+.card-title {
+    font-size: 20pt;
+    font-weight: 300;
+}
+
+.card-subtitle {
+    font-size: 16pt;
+    font-weight: 300;
+}
+
+
+.card-text {
+    font-size: 13pt;
+    color: rgb(44, 44, 44);
+    font-weight: 300;
+}
+
+.dirección {
+    margin-left: 0.25em;
+}
+
+.formulario {
+    background-color:#28a745;
+}
+
+
+footer span {
+   display: block;
+   
+}
